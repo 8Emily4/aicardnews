@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gowun+Batang:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Song+Myung&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-notosans: 'Noto Sans KR', sans-serif;
+  --font-blackhansans: 'Black Han Sans', sans-serif;
+  --font-dohyeon: 'Do Hyeon', sans-serif;
+  --font-gowunbatang: 'Gowun Batang', serif;
+  --font-nanummyeongjo: 'Nanum Myeongjo', serif;
+  --font-songmyung: 'Song Myung', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5);
+}
+
+/* Animation Delays and custom layouts */
+.card-ratio {
+  aspect-ratio: 1 / 1;
+}

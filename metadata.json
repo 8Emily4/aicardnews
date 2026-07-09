@@ -1,0 +1,6 @@
+{
+  "name": "AI 카드뉴스 제작기",
+  "description": "긴 뉴스나 글을 AI가 분석하여 인스타그램 스타일의 세련된 5~10장 카드뉴스로 요약하고, 직접 디자인을 커스텀하여 고화질 이미지로 다운로드할 수 있는 전문 도구입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
