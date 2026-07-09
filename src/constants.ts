@@ -7,6 +7,14 @@ import { ThemePreset, FontPreset, CardNewsProject } from './types';
 
 export const THEME_PRESETS: ThemePreset[] = [
   {
+    id: 'sophisticated-dark',
+    name: '소피스티케이트 다크 (시크 골드)',
+    bgGradientStart: '#080808',
+    bgGradientEnd: '#121212',
+    textColor: '#E0E0E0',
+    accentColor: '#C5A059', // Sophisticated Gold
+  },
+  {
     id: 'modern-dark',
     name: '모던 다크 (시크)',
     bgGradientStart: '#111827',

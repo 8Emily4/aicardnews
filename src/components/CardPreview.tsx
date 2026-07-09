@@ -486,10 +486,10 @@ export const CardPreview: React.FC<CardPreviewProps> = ({ card, fontFamily, tota
       </div>
 
       {/* Slide Utilities Panel */}
-      <div className="flex items-center justify-between w-full mt-4 bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-800 rounded-xl p-3.5 shadow-sm">
+      <div className="flex items-center justify-between w-full mt-4 bg-[#0A0A0A] border border-white/10 rounded-xl p-3.5 shadow-sm">
         <div className="flex flex-col text-left">
-          <span className="text-xs font-semibold text-gray-400">비주얼 추천 키워드</span>
-          <span className="text-xs font-medium text-gray-600 dark:text-gray-300 italic font-mono">
+          <span className="text-xs font-semibold text-white/40">비주얼 추천 키워드</span>
+          <span className="text-xs font-medium text-white/80 italic font-mono">
             "{card.imagePrompt || 'no keywords'}"
           </span>
         </div>
@@ -497,10 +497,10 @@ export const CardPreview: React.FC<CardPreviewProps> = ({ card, fontFamily, tota
         <button
           onClick={downloadAsImage}
           disabled={downloading}
-          className="flex items-center space-x-2 text-xs font-bold bg-gray-900 hover:bg-gray-800 text-white dark:bg-white dark:hover:bg-gray-100 dark:text-gray-900 px-4 py-2 rounded-lg transition shadow-sm cursor-pointer disabled:opacity-50"
+          className="flex items-center space-x-2 text-xs font-bold bg-[#C5A059] hover:bg-[#D4AF37] text-black px-4 py-2 rounded-lg transition shadow-sm cursor-pointer disabled:opacity-50"
         >
           {downloading ? (
-            <div className="w-3.5 h-3.5 border-2 border-white dark:border-gray-900 border-t-transparent rounded-full animate-spin" />
+            <div className="w-3.5 h-3.5 border-2 border-black border-t-transparent rounded-full animate-spin" />
           ) : (
             <Download size={14} />
           )}
